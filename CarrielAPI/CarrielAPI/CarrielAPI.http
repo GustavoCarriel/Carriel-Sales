@@ -1,0 +1,6 @@
+@CarrielAPI_HostAddress = http://localhost:5075
+
+GET {{CarrielAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

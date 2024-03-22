@@ -1,0 +1,45 @@
+@import "primeicons/primeicons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$cor-primaria: #0087CC;
+$azul-medio: #007FBF;
+$azul-escuro: #00547F;
+$branco: #fff;
+
+header {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to left, $azul-escuro, $azul-medio, $cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+    div {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        color: $branco;
+        font-weight: 700;
+
+        i {
+            font-size: 2.5em;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0 auto;
+
+            a {
+                text-decoration: none;
+                color: $branco;
+                font-weight: 500;
+            }
+        }
+    }
+
+}
